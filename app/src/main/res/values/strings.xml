@@ -10,4 +10,8 @@
     <string name="recuar">Recuar</string>
     <string name="avancar">Avançar</string>
     <string name="vamos_comecar">Vamos começar</string>
+    <string name="title_activity_exercicio">ExercicioActivity</string>
+    <string name="InsiraN">Insira o Primeiro nome</string>
+    <string name="mensagem_obrigatoria">Campo Obrigatório.</string>
+    <string name="name">Name</string>
 </resources>

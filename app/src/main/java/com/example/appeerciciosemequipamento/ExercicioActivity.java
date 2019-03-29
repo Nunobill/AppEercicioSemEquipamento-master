@@ -7,31 +7,33 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class ExercicioActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_exercicio);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        mostraMensagem();
     }
 
 
 
+    private void mostraMensagem() {
+        Intent intent = getIntent();
 
-    public void Categorias(View view) {
-        Toast.makeText(this, "Carregar Categorias...", Toast.LENGTH_SHORT).show();
+        String mensagem = intent.getStringExtra(DefinicoesApp.MENSAGEM);
 
-        Intent intent = new Intent(this, CategoriasActivity.class);
-        startActivity(intent);
+        TextView MostraNome = (TextView) findViewById(R.id.MostraNome);
+
+        MostraNome.setText(mensagem);
     }
-
 
 }
