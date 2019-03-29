@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">AppEercicioSemEquipamento</string>
-    <string name="title_activity_main">Exercícios sem Equipamentos</string>
+    <string name="app_name" translatable="false">AppEercicioSemEquipamento</string>
+    <string name="title_activity_main" translatable="false">Exercícios sem Equipamentos</string>
     <string name="title_activity_categorias">CategoriasActivity</string>
-    <string name="selecionar">Selecionar</string>
-    <string name="categoriasOpcoes">Categorias</string>
-    <string name="APC">Abdómen, Peito e Braço</string>
-    <string name="pernas_e_gluteos">Pernas e Glúteos</string>
-    <string name="todo_corpo">Todo Corpo</string>
-    <string name="recuar">Recuar</string>
-    <string name="avancar">Avançar</string>
-    <string name="vamos_comecar">Vamos começar</string>
-    <string name="title_activity_exercicio">ExercicioActivity</string>
-    <string name="InsiraN">Insira o Primeiro nome</string>
-    <string name="mensagem_obrigatoria">Campo Obrigatório.</string>
+    <string name="selecionar">Select</string>
+    <string name="categoriasOpcoes">Categories</string>
+    <string name="APC">Abdomen, chest and arm</string>
+    <string name="pernas_e_gluteos">legs and glutes</string>
+    <string name="todo_corpo">All Body</string>
+    <string name="recuar">go back</string>
+    <string name="avancar">Next</string>
+    <string name="vamos_comecar">Let´s start</string>
+    <string name="title_activity_exercicio" translatable="false">ExercicioActivity</string>
+    <string name="InsiraN">Enter the first name</string>
+    <string name="mensagem_obrigatoria">Required field.</string>
     <string name="name">Name</string>
 </resources>
