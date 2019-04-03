@@ -18,7 +18,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Selecionar"
+        android:text="@string/selecionar"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,8 @@
             android:id="@+id/buttonEscolher"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Escolher"
+            android:onClick="Escolher"
+            android:text="@string/escolher"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorSec" />
 
@@ -50,7 +51,7 @@
             android:id="@+id/buttonAdicionar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Adicionar"
+            android:text="@string/adicionar"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorSec" />
 
@@ -58,7 +59,7 @@
             android:id="@+id/buttonEditar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Editar"
+            android:text="@string/editar"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorSec" />
 
@@ -66,7 +67,7 @@
             android:id="@+id/buttonEliminar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Eliminar"
+            android:text="@string/eliminar"
             android:textColor="@color/colorSec" />
     </LinearLayout>
     app:layout_constraintEnd_toEndOf="parent"

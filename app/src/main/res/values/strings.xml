@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name" translatable="false">AppEercicioSemEquipamento</string>
     <string name="title_activity_main" translatable="false">Exercícios sem Equipamentos</string>
-    <string name="title_activity_categorias">CategoriasActivity</string>
+    <string name="title_activity_categorias">CategoriaActivity</string>
     <string name="categoriasOpcoes">Categories</string>
     <string name="vamos_comecar">Let´s start</string>
+    <string name="selecionar">Selecionar</string>
+    <string name="escolher">Escolher</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="title_activity_escolher">EscolherActivity</string>
 
 </resources>

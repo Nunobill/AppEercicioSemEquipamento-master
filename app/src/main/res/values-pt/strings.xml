@@ -2,8 +2,13 @@
 <resources>
     <string name="app_name">AppEercicioSemEquipamento</string>
     <string name="title_activity_main">Exercícios sem Equipamentos</string>
-    <string name="title_activity_categorias">CategoriasActivity</string>
+    <string name="title_activity_categorias">CategoriaActivity</string>
     <string name="categoriasOpcoes">Categorias</string>
     <string name="vamos_comecar">Vamos começar</string>
+    <string name="selecionar">Selecionar</string>
+    <string name="escolher">Escolher</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
 
 </resources>
