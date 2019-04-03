@@ -10,5 +10,12 @@
     <string name="editar">Editar</string>
     <string name="eliminar">Eliminar</string>
     <string name="title_activity_escolher">EscolherActivity</string>
+    <string name="title_activity_adicionar">AdicionarActivity</string>
+    <string name="adicionar_categorias">Adicionar Categorias</string>
+    <string name="nome">Nome</string>
+    <string name="breve_descricao">Breve Descrição</string>
+    <string name="duracao">Duração(min) / Dia</string>
+    <string name="guardar">Guardar</string>
+
 
 </resources>

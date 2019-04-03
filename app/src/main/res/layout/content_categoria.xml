@@ -51,6 +51,7 @@
             android:id="@+id/buttonAdicionar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Adicionar"
             android:text="@string/adicionar"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorSec" />
