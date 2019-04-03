@@ -10,23 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ExercicioActivity"
-            android:label="@string/title_activity_exercicio"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.appeerciciosemequipamento.MainActivity" />
-        </activity>
-        <activity
-            android:name=".CategoriasActivity"
-            android:label="@string/title_activity_categorias"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.appeerciciosemequipamento.MainActivity" />
-        </activity>
+            android:name=".CategoriaActivity"
+            android:label="@string/title_activity_categoria"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
