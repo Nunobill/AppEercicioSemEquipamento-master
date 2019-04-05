@@ -36,6 +36,24 @@ public class CategoriaActivity extends AppCompatActivity {
         Toast.makeText(this, "Adicionar Categorias...", Toast.LENGTH_SHORT).show();
 
         Intent intent = new Intent(this, AdicionarActivity.class);
+
+
+
+        startActivity(intent);
+    }
+
+
+    public void Editar(View view) {
+        Toast.makeText(this, "Editar Categorias...", Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(this, EditarActivity.class);
+        startActivity(intent);
+    }
+
+    public void Eliminar(View view) {
+        Toast.makeText(this, "Eliminar Categorias...", Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(this, EliminarActivity.class);
         startActivity(intent);
     }
 }

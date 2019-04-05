@@ -16,6 +16,10 @@
     <string name="breve_descricao">Breve Descrição</string>
     <string name="duracao">Duração(min) / Dia</string>
     <string name="guardar">Guardar</string>
+    <string name="title_activity_editar">EditarActivity</string>
+    <string name="editar_categorias">Editar Categorias</string>
+    <string name="nome1">Nome</string>
+    <string name="title_activity_eliminar">EliminarActivity</string>
 
 
 </resources>

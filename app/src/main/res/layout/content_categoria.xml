@@ -60,6 +60,7 @@
             android:id="@+id/buttonEditar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Editar"
             android:text="@string/editar"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorSec" />
@@ -68,6 +69,7 @@
             android:id="@+id/buttonEliminar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Eliminar"
             android:text="@string/eliminar"
             android:textColor="@color/colorSec" />
     </LinearLayout>
