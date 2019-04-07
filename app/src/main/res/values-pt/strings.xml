@@ -2,22 +2,30 @@
 <resources>
     <string name="app_name">AppEercicioSemEquipamento</string>
     <string name="title_activity_main">Exercícios sem Equipamentos</string>
-    <string name="title_activity_categorias">CategoriaActivity</string>
+    <string name="title_activity_categorias">Categoria</string>
     <string name="categoriasOpcoes">Categorias</string>
     <string name="vamos_comecar">Vamos começar</string>
-    <string name="selecionar">Selecionar</string>
+    <string name="selecionar">opções</string>
     <string name="escolher">Escolher</string>
     <string name="adicionar">Adicionar</string>
     <string name="editar">Editar</string>
     <string name="eliminar">Eliminar</string>
     <string name="adicionar_categorias">Adicionar Categorias</string>
     <string name="nome">Nome</string>
-    <string name="title_activity_escolher">EscolherActivity</string>
-    <string name="title_activity_adicionar">AdicionarActivity</string>
+    <string name="title_activity_escolher">Escolher</string>
+    <string name="title_activity_adicionar">Adicionar</string>
     <string name="breve_descricao">Breve Descrição</string>
     <string name="duracao">Duração(min) / Dia</string>
     <string name="guardar">Guardar</string>
+    <string name="title_activity_editar">Editar</string>
     <string name="editar_categorias">Editar Categorias</string>
     <string name="nome1">Nome</string>
+    <string name="title_activity_eliminar">Eliminar</string>
+    <string name="duracao_min_dia">Duração(min) / Dia</string>
+    <string name="cancelar_Editar">Cancelar</string>
+    <string name="editar2">Editar</string>
+    <string name="eliminar_categorias">Eliminar Categorias</string>
+    <string name="cancelar_Eliminar">Cancelar</string>
+    <string name="eliminar2">Eliminar</string>
 
 </resources>

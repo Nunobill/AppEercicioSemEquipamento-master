@@ -51,6 +51,7 @@
         android:onClick="cancelar1"
         android:text="Cancelar"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorAccent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewEscolherC1" />
 
@@ -63,6 +64,7 @@
         android:layout_marginRight="32dp"
         android:text="Avançar"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewEscolherC1" />
 
