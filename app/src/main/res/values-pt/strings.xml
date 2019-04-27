@@ -3,8 +3,6 @@
     <string name="app_name">AppEercicioSemEquipamento</string>
     <string name="title_activity_main">Exercícios sem Equipamentos</string>
     <string name="title_activity_categorias">Categoria</string>
-    <string name="categoriasOpcoes">Categorias</string>
-    <string name="vamos_comecar">Vamos começar</string>
     <string name="selecionar">opções</string>
     <string name="escolher">Escolher</string>
     <string name="adicionar">Adicionar</string>
@@ -27,5 +25,9 @@
     <string name="eliminar_categorias">Eliminar Categorias</string>
     <string name="cancelar_Eliminar">Cancelar</string>
     <string name="eliminar2">Eliminar</string>
+    <string name="categories">Categories</string>
+    <string name="Abdomen">Abdómen, peito e braço</string>
+    <string name="pernas">Pernas e Glúteos</string>
+    <string name="corpo_inteiro">Corpo inteiro</string>
 
 </resources>

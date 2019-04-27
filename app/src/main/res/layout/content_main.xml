@@ -12,39 +12,59 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
-        android:id="@+id/textViewMensagem2"
-        android:layout_width="285dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="128dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:ems="23"
-        android:text="@string/vamos_comecar"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@color/colorAccent"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/buttonCategorias"
-        android:layout_width="226dp"
-        android:layout_height="81dp"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:onClick="Categoria"
-
-        android:text="@string/categoriasOpcoes"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/colorAccent"
+        android:text="@string/categories"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewMensagem2" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAbdomen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="Abdomen"
+        android:text="@string/Abdomen"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/buttonPernas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/pernas"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="@+id/buttonAbdomen"
+        app:layout_constraintStart_toStartOf="@+id/buttonAbdomen"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAbdomen" />
+
+    <Button
+        android:id="@+id/buttonCorpo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/corpo_inteiro"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonPernas"
+        app:layout_constraintStart_toStartOf="@+id/buttonPernas"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPernas" />
 
 </android.support.constraint.ConstraintLayout>

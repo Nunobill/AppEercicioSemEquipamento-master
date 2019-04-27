@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void Categoria(View view) {
+    public void Abdomen(View view) {
         Toast.makeText(this, "Carregar Categorias...", Toast.LENGTH_SHORT).show();
 
         Intent intent = new Intent(this, CategoriaActivity.class);
