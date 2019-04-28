@@ -53,4 +53,8 @@ public class AdicionarActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+
+    public void cancelarAddAb(View view) {
+        finish();
+    }
 }

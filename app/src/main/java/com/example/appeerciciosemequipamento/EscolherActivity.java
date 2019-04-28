@@ -18,7 +18,6 @@ public class EscolherActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        escolheractivity();
     }
 
 

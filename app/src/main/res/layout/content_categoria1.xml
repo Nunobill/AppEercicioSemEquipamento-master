@@ -52,6 +52,7 @@
             android:id="@+id/buttonAdicionarPern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Adicionar1"
             android:text="@string/adicionarPern"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorAccent" />
@@ -60,6 +61,7 @@
             android:id="@+id/buttonEditarPern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Editar1"
             android:text="@string/editarPern"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorAccent" />
@@ -68,6 +70,7 @@
             android:id="@+id/buttonEliminarPern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Eliminar1"
             android:text="@string/eliminarPern"
             android:textColor="@color/colorAccent" />
     </LinearLayout>

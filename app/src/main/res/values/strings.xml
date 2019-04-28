@@ -42,6 +42,8 @@
     <string name="cancelarAb">Cancelar</string>
     <string name="avancarAb">Avançar</string>
     <string name="title_activity_adicionar1">Adicionar1Activity</string>
+    <string name="guardarPern">Guardar</string>
+    <string name="cancelarAddPern">Cancelar</string>
 
 
 </resources>
