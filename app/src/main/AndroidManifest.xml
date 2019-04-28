@@ -11,9 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Categoria2Activity"
+            android:label="@string/title_activity_categoria2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Eliminar1Activity"
+            android:label="@string/title_activity_eliminar1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Editar1Activity"
             android:label="@string/title_activity_editar1"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Adicionar1Activity"
             android:label="@string/title_activity_adicionar1"

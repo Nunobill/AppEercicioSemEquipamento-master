@@ -33,7 +33,6 @@
     <string name="EscolherPern">Escolher</string>
     <string name="adicionarPern">Adicionar</string>
     <string name="editarPern">Editar</string>
-    <string name="eliminarPern">Eliminar</string>
     <string name="imagePrinc">imagem</string>
     <string name="escolher_categoriaPern">Escolher Categoria</string>
     <string name="avancarPern">Avançar</string>
@@ -45,5 +44,12 @@
     <string name="cancelarAddPern">Cancelar</string>
     <string name="cancelarEditPern">Cancelar</string>
     <string name="editarEditPern">Editar</string>
+    <string name="cancelarElimPernas">Cancelar</string>
+    <string name="title_activity_escolher1">Escolher1Activity</string>
+    <string name="title_activity_adicionar1">Adicionar1Activity</string>
+    <string name="title_activity_editar1">Editar1Activity</string>
+    <string name="title_activity_eliminar1">Eliminar1Activity</string>
+    <string name="eliminarPern">Eliminar</string>
+    <string name="eliminarElimPern">Eliminar</string>
 
 </resources>
