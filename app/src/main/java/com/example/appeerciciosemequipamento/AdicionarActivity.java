@@ -24,7 +24,7 @@ public class AdicionarActivity extends AppCompatActivity {
     }
 
 
-    public void Escolher(View view) {
+    public void Adicionar(View view) {
         EditText editTextNome = (EditText) findViewById(R.id.editTextNome);
         String nome = editTextNome.getText().toString();
 

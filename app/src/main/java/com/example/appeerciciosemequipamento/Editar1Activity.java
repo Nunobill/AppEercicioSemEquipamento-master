@@ -50,7 +50,7 @@ public class Editar1Activity extends AppCompatActivity {
 
         Toast.makeText(this, "Carregarando Alterações...", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this, EscolherActivity.class);
+        Intent intent = new Intent(this, Escolher1Activity.class);
         intent.putExtra(DefinicoesApp.NOME, nome1);
         intent.putExtra(DefinicoesApp.DURACAO, duracao1);
 

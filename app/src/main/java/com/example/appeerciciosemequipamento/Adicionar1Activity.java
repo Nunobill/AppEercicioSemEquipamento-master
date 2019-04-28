@@ -22,7 +22,7 @@ public class Adicionar1Activity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    public void Escolher1(View view) {
+    public void Adicionar1Pern(View view) {
         EditText editTextNome = (EditText) findViewById(R.id.editTextNome);
         String nome = editTextNome.getText().toString();
 
@@ -44,7 +44,7 @@ public class Adicionar1Activity extends AppCompatActivity {
 
         Toast.makeText(this, "Carregarando...", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this, EscolherActivity.class);
+        Intent intent = new Intent(this, Escolher1Activity.class);
         intent.putExtra(DefinicoesApp.NOME, nome);
         intent.putExtra(DefinicoesApp.DURACAO, duracao);
 

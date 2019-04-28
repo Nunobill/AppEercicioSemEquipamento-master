@@ -65,5 +65,9 @@
     <string name="escolher_categoriaCorp">Escolher Exercício</string>
     <string name="eliminarElimCorp">Eliminar</string>
     <string name="cancelarElimCorp">Cancelar</string>
+    <string name="editarEditCorp">Editar</string>
+    <string name="cancelarEditCorp">Cancelar</string>
+    <string name="guardarCorp">Guardar</string>
+    <string name="cancelarAddCorp">cancelar</string>
 
 </resources>
