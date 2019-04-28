@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:background="@color/colorSec"
-    tools:context=".EditarActivity"
-    tools:showIn="@layout/activity_editar">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Editar1Activity"
+    tools:showIn="@layout/activity_editar1">
 
     <TextView
         android:id="@+id/textViewEditar"
@@ -75,8 +75,8 @@
         android:layout_marginLeft="32dp"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="8dp"
-        android:onClick="Cancelar2"
-        android:text="@string/cancelar_Editar"
+        android:onClick="CancelarEditPern"
+        android:text="@string/cancelarEditPern"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -91,11 +91,12 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginBottom="8dp"
-        android:onClick="Escolher"
-        android:text="@string/editar2"
+        android:onClick="Escolher1"
+        android:text="@string/editarEditPern"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4" />
+
 </android.support.constraint.ConstraintLayout>

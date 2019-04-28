@@ -43,5 +43,7 @@
     <string name="avancarAb">Avançar</string>
     <string name="guardarPern">Guardar</string>
     <string name="cancelarAddPern">Cancelar</string>
+    <string name="cancelarEditPern">Cancelar</string>
+    <string name="editarEditPern">Editar</string>
 
 </resources>

@@ -44,6 +44,9 @@
     <string name="title_activity_adicionar1">Adicionar1Activity</string>
     <string name="guardarPern">Guardar</string>
     <string name="cancelarAddPern">Cancelar</string>
+    <string name="title_activity_editar1">Editar1Activity</string>
+    <string name="cancelarEditPern">Cancelar</string>
+    <string name="editarEditPern">Editar</string>
 
 
 </resources>

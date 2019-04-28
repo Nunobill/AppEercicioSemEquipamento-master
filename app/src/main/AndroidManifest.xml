@@ -11,9 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Editar1Activity"
+            android:label="@string/title_activity_editar1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".Adicionar1Activity"
             android:label="@string/title_activity_adicionar1"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Escolher1Activity"
             android:label="@string/title_activity_escolher1"
