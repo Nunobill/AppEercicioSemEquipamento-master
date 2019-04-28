@@ -39,38 +39,38 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewSelecionar">
 
         <Button
-            android:id="@+id/buttonEscolherPern"
+            android:id="@+id/buttonEscolher"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="Escolher2"
-            android:text="@string/EscolherPern"
+            android:text="@string/escolherCorp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorAccent" />
 
         <Button
-            android:id="@+id/buttonAdicionarPern"
+            android:id="@+id/buttonAdicionar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="Adicionar2"
-            android:text="@string/adicionarPern"
+            android:text="@string/adicionarCorp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorAccent" />
 
         <Button
-            android:id="@+id/buttonEditarPern"
+            android:id="@+id/buttonEditar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="Editar2"
-            android:text="@string/editarPern"
+            android:text="@string/editarCorp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorAccent" />
 
         <Button
-            android:id="@+id/buttonEliminarPern"
+            android:id="@+id/buttonEliminar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="Eliminar2"
-            android:text="@string/eliminarPern"
+            android:text="@string/eliminarCorp"
             android:textColor="@color/colorAccent" />
     </LinearLayout>
     app:layout_constraintEnd_toEndOf="parent"

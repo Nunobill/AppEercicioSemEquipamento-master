@@ -51,6 +51,10 @@
     <string name="cancelarElimPernas">Cancelar</string>
     <string name="eliminarElimPern">Eliminar</string>
     <string name="title_activity_categoria2">Categoria2Activity</string>
+    <string name="escolherCorp">Escolher</string>
+    <string name="adicionarCorp">Adicionar</string>
+    <string name="editarCorp">Editar</string>
+    <string name="eliminarCorp">Eliminar</string>
 
 
 </resources>

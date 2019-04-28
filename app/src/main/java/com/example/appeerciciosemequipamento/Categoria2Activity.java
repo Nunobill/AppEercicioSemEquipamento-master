@@ -18,20 +18,21 @@ public class Categoria2Activity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 
     public void Escolher2(View view) {
         Toast.makeText(this, "Escolher Categorias...", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this, EscolherActivity.class);
+        Intent intent = new Intent(this, Escolher2Activity.class);
         startActivity(intent);
     }
 
     public void Adicionar2(View view) {
         Toast.makeText(this, "Adicionar Categorias...", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this, AdicionarActivity.class);
+        Intent intent = new Intent(this, Adicionar2Activity.class);
 
         startActivity(intent);
     }
@@ -40,14 +41,14 @@ public class Categoria2Activity extends AppCompatActivity {
     public void Editar2(View view) {
         Toast.makeText(this, "Editar Categorias...", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this, EditarActivity.class);
+        Intent intent = new Intent(this, Editar2Activity.class);
         startActivity(intent);
     }
 
     public void Eliminar2(View view) {
         Toast.makeText(this, "Eliminar Categorias...", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this, EliminarActivity.class);
+        Intent intent = new Intent(this, Eliminar2Activity.class);
         startActivity(intent);
     }
 }

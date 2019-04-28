@@ -40,4 +40,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Categoria1Activity.class);
         startActivity(intent);
     }
+
+
+    public void Corpo(View view) {
+        Toast.makeText(this, "Carregar Categorias...", Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(this, Categoria2Activity.class);
+        startActivity(intent);
+    }
 }
