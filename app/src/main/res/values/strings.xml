@@ -55,6 +55,15 @@
     <string name="adicionarCorp">Adicionar</string>
     <string name="editarCorp">Editar</string>
     <string name="eliminarCorp">Eliminar</string>
+    <string name="title_activity_escolher2">Escolher2Activity</string>
+    <string name="title_activity_adicionar2">Adicionar2Activity</string>
+    <string name="title_activity_editar2">Editar2Activity</string>
+    <string name="title_activity_eliminar2">Eliminar2Activity</string>
+    <string name="cancelarCorp">Cancelar</string>
+    <string name="avancarCorp">Avançar</string>
+    <string name="escolher_categoriaCorp">Escolher Exercício</string>
+    <string name="eliminarElimCorp">Eliminar</string>
+    <string name="cancelarElimCorp">Cancelar</string>
 
 
 </resources>

@@ -11,9 +11,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Eliminar2Activity"
+            android:label="@string/title_activity_eliminar2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Editar2Activity"
+            android:label="@string/title_activity_editar2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Adicionar2Activity"
+            android:label="@string/title_activity_adicionar2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Escolher2Activity"
+            android:label="@string/title_activity_escolher2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Categoria2Activity"
             android:label="@string/title_activity_categoria2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Eliminar1Activity"
             android:label="@string/title_activity_eliminar1"
