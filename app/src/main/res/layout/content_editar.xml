@@ -82,7 +82,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4" />
 
     <Button
-        android:id="@+id/buttonEditar"
+        android:id="@+id/buttonEditarPern"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"

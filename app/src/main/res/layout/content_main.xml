@@ -49,6 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:onClick="Pernas"
         android:text="@string/pernas"
         android:textColor="@color/colorAccent"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -66,5 +67,19 @@
         app:layout_constraintEnd_toEndOf="@+id/buttonPernas"
         app:layout_constraintStart_toStartOf="@+id/buttonPernas"
         app:layout_constraintTop_toBottomOf="@+id/buttonPernas" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="194dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCorpo"
+        app:layout_constraintStart_toStartOf="@+id/buttonCorpo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCorpo"
+        app:layout_constraintVertical_bias="0.51"
+        app:srcCompat="@drawable/emagrecer"
+        android:contentDescription="@string/imagePrinc" />
 
 </android.support.constraint.ConstraintLayout>

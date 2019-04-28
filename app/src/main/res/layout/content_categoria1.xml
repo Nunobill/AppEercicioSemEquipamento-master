@@ -6,8 +6,9 @@
     android:layout_height="match_parent"
     android:background="@color/colorSec"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".CategoriaActivity"
-    tools:showIn="@layout/activity_categoria">
+    tools:context=".Categoria1Activity"
+    tools:showIn="@layout/activity_categoria1">
+
 
     <TextView
         android:id="@+id/textViewSelecionar"
@@ -42,8 +43,7 @@
             android:id="@+id/buttonEscolherPern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Escolher"
-            android:text="@string/escolher"
+            android:text="@string/EscolherPern"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorAccent" />
 
@@ -51,8 +51,7 @@
             android:id="@+id/buttonAdicionarPern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Adicionar"
-            android:text="@string/adicionar"
+            android:text="@string/adicionarPern"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorAccent" />
 
@@ -60,8 +59,7 @@
             android:id="@+id/buttonEditarPern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Editar"
-            android:text="@string/editar"
+            android:text="@string/editarPern"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorAccent" />
 
@@ -69,11 +67,11 @@
             android:id="@+id/buttonEliminarPern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Eliminar"
-            android:text="@string/eliminar"
+            android:text="@string/eliminarPern"
             android:textColor="@color/colorAccent" />
     </LinearLayout>
     app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

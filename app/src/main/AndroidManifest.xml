@@ -11,10 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Categoria1Activity"
+            android:label="@string/title_activity_categoria1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".EliminarActivity"
             android:label="@string/title_activity_eliminar"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".EditarActivity"
             android:label="@string/title_activity_editar"
@@ -38,8 +42,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

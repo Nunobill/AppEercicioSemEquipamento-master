@@ -34,5 +34,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void Pernas(View view) {
+        Toast.makeText(this, "Carregar Categorias...", Toast.LENGTH_SHORT).show();
 
+        Intent intent = new Intent(this, Categoria1Activity.class);
+        startActivity(intent);
+    }
 }

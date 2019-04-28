@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">AppEercicioSemEquipamento</string>
     <string name="title_activity_main" translatable="false">Exercícios sem Equipamentos</string>
-    <string name="title_activity_categorias">CategoriaActivity</string>
+    <string name="title_activity_categorias">Abdómen, peito e braço</string>
     <string name="selecionar">Option</string>
     <string name="escolher">Select</string>
     <string name="adicionar">Add</string>
@@ -28,6 +28,12 @@
     <string name="Abdomen">Abdómen, peito e braço</string>
     <string name="pernas">Pernas e Glúteos</string>
     <string name="corpo_inteiro">Corpo inteiro</string>
+    <string name="title_activity_categoria1">Pernas e Glúteos</string>
+    <string name="EscolherPern">Escolher</string>
+    <string name="adicionarPern">Adicionar</string>
+    <string name="editarPern">Editar</string>
+    <string name="eliminarPern">Eliminar</string>
+    <string name="imagePrinc">imagem</string>
 
 
 </resources>
