@@ -35,5 +35,11 @@
     <string name="editarPern">Editar</string>
     <string name="eliminarPern">Eliminar</string>
     <string name="imagePrinc">imagem</string>
+    <string name="escolher_categoriaPern">Escolher Categoria</string>
+    <string name="avancarPern">Avançar</string>
+    <string name="cancelarPern">Cancelar</string>
+    <string name="escolher_categoriaAb">Escolher Categoria</string>
+    <string name="cancelarAb">Cancelar</string>
+    <string name="avancarAb">Avançar</string>
 
 </resources>

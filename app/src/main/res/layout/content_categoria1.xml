@@ -43,6 +43,7 @@
             android:id="@+id/buttonEscolherPern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Escolher1"
             android:text="@string/EscolherPern"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorAccent" />

@@ -7,18 +7,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
-public class EscolherActivity extends AppCompatActivity {
+public class Escolher1Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_escolher);
+        setContentView(R.layout.activity_escolher1);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        escolheractivity();
     }
 
 
@@ -32,19 +30,19 @@ public class EscolherActivity extends AppCompatActivity {
         String nome1 = intent.getStringExtra(DefinicoesApp.NOME);
         String duracao1 = intent.getStringExtra(DefinicoesApp.DURACAO);
 
-        TextView textViewEscolherC1 = (TextView) findViewById(R.id.textViewEscolherC1);
+        TextView textViewEscolherC1Pern = (TextView) findViewById(R.id.textViewEscolherC1);
 
-        TextView textViewEscolherC2 = (TextView) findViewById(R.id.textViewEscolherC2);
+        TextView textViewEscolherC2Pern = (TextView) findViewById(R.id.textViewEscolherC2);
 
-        textViewEscolherC1.setText(nome);
-        textViewEscolherC2.setText(duracao);
+        textViewEscolherC1Pern.setText(nome);
+        textViewEscolherC2Pern.setText(duracao);
 
-        textViewEscolherC1.setText(nome1);
-        textViewEscolherC2.setText(duracao1);
+        textViewEscolherC1Pern.setText(nome1);
+        textViewEscolherC2Pern.setText(duracao1);
 
     }
 
-    public void cancelar1(View view) {
+    public void cancelarPern(View view) {
         finish();
     }
 }

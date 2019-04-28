@@ -34,6 +34,14 @@
     <string name="editarPern">Editar</string>
     <string name="eliminarPern">Eliminar</string>
     <string name="imagePrinc">imagem</string>
+    <string name="title_activity_escolher1">Escolher1Activity</string>
+    <string name="escolher_categoriaPern">Escolher Categoria</string>
+    <string name="avancarPern">Avançar</string>
+    <string name="cancelarPern">Cancelar</string>
+    <string name="escolher_categoriaAb">Escolher Categoria</string>
+    <string name="cancelarAb">Cancelar</string>
+    <string name="avancarAb">Avançar</string>
+    <string name="title_activity_adicionar1">Adicionar1Activity</string>
 
 
 </resources>
